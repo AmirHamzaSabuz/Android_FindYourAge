@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
         Calendar calendar = Calendar.getInstance();
         int year = calendar.get(Calendar.YEAR);
         int age = year-birthYear;
-        tvAge.setText(String.valueOf(age));
+        tvAge.setText("Your age is " + String.valueOf(age));
     }
 }
